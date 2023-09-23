@@ -3025,7 +3025,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .footer .footer-content .footer-info h3 span {
