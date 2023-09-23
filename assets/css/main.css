@@ -3031,8 +3031,14 @@ section {
   /*text-transform: uppercase;*/
 }
 
-.footer .footer-content .footer-info h3 span {
-  color: var(--color-primary);
+.footer .footer-content .footer-info h3 span.colors1 {
+  color: rgb(112 229 0);
+}
+.footer .footer-content .footer-info h3 span.colors2 {
+  color: rgb(98 224 255);
+}
+.footer .footer-content .footer-info h3 span.colors3 {
+  color: rgb(6, 117, 222);
 }
 
 .footer .footer-content .footer-info p {
