@@ -214,16 +214,20 @@ section {
   background: var(--color-white);
   box-shadow: 0px 2px 20px rgba(var(--color-secondary-rgb), 0.1);
 }
-
+.header .logo{
+  display: flex !important;
+  gap: 10px !important;
+  align-items: flex-end !important;
+}
 .header .logo img {
-  height: 90%;
+  height: 80%;
   margin-right: 6px;
 }
 
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: #ebf5ff;
   font-family: var(--font-secondary);
 }
 
@@ -415,7 +419,6 @@ section {
     color: var(--color-white);
     background: var(--color-primary);
   }
-
   .navbar .dropdown .dropdown ul {
     top: 0;
     left: calc(100% - 30px);
